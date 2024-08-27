@@ -1,0 +1,38 @@
+[
+	{
+	  "image": "https://atom.tailus.io/product-screenshot.webp",
+	  "name": "John Doe",
+	  "position": "CEO, Tech Innovators",
+	  "quote": "Working with Aashutosh shrestha was an absolute pleasure. Their expertise in Next.js and React.js transformed our project into a high-performance application. Highly recommend!"
+	},
+	{
+	  "image": "https://atom.tailus.io/product-screenshot.webp",
+	  "name": "Jane Smith",
+	  "position": "CTO, Web Solutions Inc.",
+	  "quote": "Aashutosh shrestha delivered beyond our expectations. Their full-stack skills, especially in MERN, enabled us to launch our platform quickly and efficiently."
+	},
+	{
+	  "image": "https://atom.tailus.io/product-screenshot.webp",
+	  "name": "Michael Lee",
+	  "position": "Project Manager, Creative Design Co.",
+	  "quote": "Aashutosh shrestha's ability to tackle complex problems in Next.js and React.js was impressive. Their dedication to quality code made our collaboration seamless."
+	},
+	{
+	  "image": "https://atom.tailus.io/product-screenshot.webp",
+	  "name": "Emily Johnson",
+	  "position": "Founder, Startup Hub",
+	  "quote": "We were amazed by Aashutosh shrestha's deep understanding of full-stack development. Their expertise helped us scale our application with ease."
+	},
+	{
+	  "image": "https://atom.tailus.io/product-screenshot.webp",
+	  "name": "David Brown",
+	  "position": "Lead Developer, CloudTech Solutions",
+	  "quote": "Thanks to Aashutosh shrestha's exceptional MERN-stack skills, our project was completed on time and exceeded all expectations. Their attention to detail is unmatched."
+	},
+	{
+	  "image": "https://atom.tailus.io/product-screenshot.webp",
+	  "name": "Sarah Wilson",
+	  "position": "Director of Operations, E-commerce Giants",
+	  "quote": "Aashutosh shrestha brought our vision to life with their expertise in Next.js and full-stack development. We couldn't be happier with the results."
+	}
+  ]
