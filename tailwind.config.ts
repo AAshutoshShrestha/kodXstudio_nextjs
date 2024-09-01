@@ -8,6 +8,9 @@ const config: Config = {
 	],
 	theme: {
 		extend: {
+			cursor: {
+				'view-pointer': '(/images/CustomPointer.png), pointer',
+			  },
 			colors: {
 				"highlight-bg": "#16a34a", // Custom highlight background color
 				"highlight-text": "#f4f4f5", // Custom highlight text color
@@ -46,6 +49,11 @@ const config: Config = {
 			},
 		},
 	},
+	variants: {
+		extend: {
+		  cursor: ['hover'], // Enables hover state for the custom cursor
+		},
+	  },
 	plugins: [],
 };
 export default config;

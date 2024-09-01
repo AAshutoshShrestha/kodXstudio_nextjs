@@ -13,38 +13,19 @@ const ServiceStickySection = () => {
 				<div className="mx-auto grid max-w-lg grid-cols-1 gap-8 md:max-w-2xl md:grid-cols-2 lg:max-w-full lg:grid-cols-4">
 					<div className="relative h-auto w-full md:col-span-2">
 						<div className="flex flex-row flex-wrap justify-between rounded-2xl bg-zinc-800">
-							<div className="w-full p-5 md:w-1/2 xl:p-8">
-								<div className="block">
-									<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M15 12.5V18.75M18.75 2.5L11.25 2.5M15 28.75C8.7868 28.75 3.75 23.7132 3.75 17.5C3.75 11.2868 8.7868 6.25 15 6.25C21.2132 6.25 26.25 11.2868 26.25 17.5C26.25 23.7132 21.2132 28.75 15 28.75Z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
-									</svg>
-								</div>
-								<h3 className="w-full py-5 text-lg font-bold text-white xl:w-64 xl:text-xl">Accomplish tasks swiftly with online tools.</h3>
-								<p className="mb-8 w-full text-xs font-normal text-zinc-300 xl:w-64">Get quoted and covered in under 10 minutes online. no paperwork or waiting any more</p>
-								<button className="flex items-center justify-between gap-2 rounded-full border border-solid border-zinc-300 px-5 py-2 text-xs font-semibold text-white transition-all duration-500 hover:bg-white/5">
-									View More
-									<svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M1 9L3.58579 6.41421C4.25245 5.74755 4.58579 5.41421 4.58579 5C4.58579 4.58579 4.25245 4.25245 3.58579 3.58579L1 1" stroke="white" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"></path>
-									</svg>
-								</button>
-							</div>
-							<div className="relative hidden h-auto md:block md:w-1/2">
+							
+							<div className="h-64 relative block">
 								<Image
 									src="/images/card_img_1.jpg"
 									alt="hero"
 									height={150}
 									width={1000}
 									priority
-									className="ml-auto h-full"
+									className="h-full hover:scale-105"
 									draggable={false}
 								/>
 							</div>
-						</div>
-					</div>
-
-					<div className="relative h-auto w-full md:col-span-2">
-						<div className="flex flex-row flex-wrap justify-between rounded-2xl bg-zinc-800">
-							<div className="w-full p-5 md:w-1/2 xl:p-8">
+							<div className="w-full p-5 xl:p-8">
 								<div className="block">
 									<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
 										<path d="M15 12.5V18.75M18.75 2.5L11.25 2.5M15 28.75C8.7868 28.75 3.75 23.7132 3.75 17.5C3.75 11.2868 8.7868 6.25 15 6.25C21.2132 6.25 26.25 11.2868 26.25 17.5C26.25 23.7132 21.2132 28.75 15 28.75Z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
@@ -59,16 +40,37 @@ const ServiceStickySection = () => {
 									</svg>
 								</button>
 							</div>
-							<div className="relative hidden h-auto md:block md:w-1/2">
+						</div>
+					</div>
+
+					<div className="relative h-auto w-full md:col-span-2">
+						<div className="flex flex-row flex-wrap justify-between rounded-2xl bg-zinc-800">
+							
+							<div className="h-64 relative block">
 								<Image
-									src="/images/card_img_2.jpg"
+									src="/images/card_img_1.jpg"
 									alt="hero"
 									height={150}
 									width={1000}
 									priority
-									className="ml-auto h-full"
+									className="h-full hover:scale-105"
 									draggable={false}
 								/>
+							</div>
+							<div className="w-full p-5 xl:p-8">
+								<div className="block">
+									<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M15 12.5V18.75M18.75 2.5L11.25 2.5M15 28.75C8.7868 28.75 3.75 23.7132 3.75 17.5C3.75 11.2868 8.7868 6.25 15 6.25C21.2132 6.25 26.25 11.2868 26.25 17.5C26.25 23.7132 21.2132 28.75 15 28.75Z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
+									</svg>
+								</div>
+								<h3 className="w-full py-5 text-lg font-bold text-white xl:w-64 xl:text-xl">Accomplish tasks swiftly with online tools.</h3>
+								<p className="mb-8 w-full text-xs font-normal text-zinc-300 xl:w-64">Get quoted and covered in under 10 minutes online. no paperwork or waiting any more</p>
+								<button className="flex items-center justify-between gap-2 rounded-full border border-solid border-zinc-300 px-5 py-2 text-xs font-semibold text-white transition-all duration-500 hover:bg-white/5">
+									View More
+									<svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M1 9L3.58579 6.41421C4.25245 5.74755 4.58579 5.41421 4.58579 5C4.58579 4.58579 4.25245 4.25245 3.58579 3.58579L1 1" stroke="white" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"></path>
+									</svg>
+								</button>
 							</div>
 						</div>
 					</div>
