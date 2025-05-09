@@ -1,14 +1,32 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
 	images: {
-		domains: [
-			'atom.tailus.io',
-			'images.unsplash.com',
-			'unsplash.com',
-			'tailus.io',
-			'assets.aceternity.com',
-			'pagedone.io',
-		],  // This specifies the allowed domains for image sources
+		remotePatterns: [
+			{
+				protocol: "https",
+				hostname: "atom.tailus.io",
+			},
+			{
+				protocol: "https",
+				hostname: "images.unsplash.com",
+			},
+			{
+				protocol: "https",
+				hostname: "unsplash.com",
+			},
+			{
+				protocol: "https",
+				hostname: "tailus.io",
+			},
+			{
+				protocol: "https",
+				hostname: "assets.aceternity.com",
+			},
+			{
+				protocol: "https",
+				hostname: "pagedone.io",
+			},
+		],
 	},
 };
 

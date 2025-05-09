@@ -22,10 +22,10 @@ const TopNavbar = ({ className }: { className?: string }) => {
 						</div>
 					</MenuItem> */}
 
-					<HoveredLink href="#features">Features</HoveredLink>
-					<HoveredLink href="#roadmap">RoadMap</HoveredLink>
-					<HoveredLink href="#pricing">Pricings</HoveredLink>
-					<HoveredLink href="#bugs">Bugs</HoveredLink>
+					<HoveredLink href="/">Home</HoveredLink>
+					<HoveredLink href="#">Services</HoveredLink>
+					<HoveredLink href="Pricing">Pricings</HoveredLink>
+					<HoveredLink href="/blog">Blogs</HoveredLink>
 				</div>
 
 			</Menu>

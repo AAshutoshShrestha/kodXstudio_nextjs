@@ -12,6 +12,8 @@ const config: Config = {
 				'view-pointer': '(/images/CustomPointer.png), pointer',
 			  },
 			colors: {
+				"primary":"#166534",
+				"secondary":"#15803d",
 				"highlight-bg": "#16a34a", // Custom highlight background color
 				"highlight-text": "#f4f4f5", // Custom highlight text color
 			},
